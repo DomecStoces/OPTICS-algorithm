@@ -2,7 +2,7 @@ library(tidyverse)
 library(dbscan)
 library(ggplot2)
 
-# Step 1: Simulate presence/absence dataset
+# Step 1: Simulate presence/absence datasheet
 set.seed(42)
 species <- paste0("Sp", 1:9)
 intervals <- paste0("Y", seq(1925, 2025, 15))
